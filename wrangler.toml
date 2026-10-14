@@ -1,0 +1,31 @@
+name = "aston-os-final"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+
+[ai]
+binding = "AI"
+
+# Recommended:
+# [[kv_namespaces]]
+# binding = "ASTON_KV"
+# id = "YOUR_KV_ID"
+#
+# [[d1_databases]]
+# binding = "ASTON_DB"
+# database_name = "aston-os"
+# database_id = "YOUR_D1_ID"
+#
+# [[r2_buckets]]
+# binding = "ASTON_R2"
+# bucket_name = "aston-os-lake"
+
+[vars]
+ASTON_BRAND_NAME = "Lane & Aston"
+ASTON_TENANT_ID = "laneaston"
+# ASTON_AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fp8"
+# ASTON_VOICE_PROFILE = "aston_executive"
+# ASTON_ALLOWED_ORIGIN = "https://www.laneaston.com,https://laneaston.com"
+# ASTON_RATE_LIMIT = "60"
+
+# wrangler secret put ASTON_API_TOKEN
