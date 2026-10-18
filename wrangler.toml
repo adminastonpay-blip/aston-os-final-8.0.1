@@ -21,11 +21,11 @@ binding = "AI"
 # bucket_name = "aston-os-lake"
 
 [vars]
-ASTON_BRAND_NAME = "Lane & Aston"
-ASTON_TENANT_ID = "laneaston"
+ASTON_BRAND_NAME = "ASTON OS"
+ASTON_TENANT_ID = "default"
 # ASTON_AI_MODEL = "@cf/meta/llama-3.1-8b-instruct-fp8"
 # ASTON_VOICE_PROFILE = "aston_executive"
-# ASTON_ALLOWED_ORIGIN = "https://www.laneaston.com,https://laneaston.com"
+# ASTON_ALLOWED_ORIGIN = "https://example.com"
 # ASTON_RATE_LIMIT = "60"
 
 # wrangler secret put ASTON_API_TOKEN
